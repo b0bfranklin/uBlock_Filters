@@ -1,0 +1,41 @@
+! Title: Custom Tracking & Ad-Tech Blocklist
+! Description: Blocks specified ad-tech, tracking, impression-checking and cookie-sync domains.
+! Homepage: [https://github.com/b0bfranklin/uBlock_Filters](https://github.com/b0bfranklin/uBlock_Filters)
+! Version: 2026.10.21
+! Expires: 1 days
+
+! Ad-tech and tracking domains
+||discover-tech.io^
+||mtrtb.com^
+||mydsp.io^
+||controlium.net^
+||powerium.net^
+||platc-tester.com^
+||myweb3id.io^
+||myipinfo.io^
+||akedo.gg^
+||volasim.com^
+
+! Ad retrieval endpoints
+||mtrtb.com/getAd^
+||powerium.net/getAd^
+||platc-tester.com/cplatform/getAd^
+||myweb3id.io/cplatform/getAd^
+
+! Additional ad retrieval endpoints
+||noas.powerium.net/getAd^
+||qa-noas.powerium.net/getAd^
+||noas.adtimizer.co^
+||noas.impchkdsp.com^
+||noas.trakking.co^
+
+! Cookie syncing and tracking
+||tracookiepixel.xyz^
+||cookiesurfer.com^
+||cookie-sync.xyz^
+
+! Impression monitoring
+||ads-monitor.xyz^
+||checkmyimp.com^
+||ads-impressions.com^
+||nutralove.co^
